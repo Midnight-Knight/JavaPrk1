@@ -6,14 +6,14 @@ public class main {
     {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();
-        float[] A= new float[N];
-        float Sum = 0;
+        int[] A= new int[N];
+        int Sum = 0;
         for (int i = 0; i < N; ++i)
         {
-            A[i] = scanner.nextFloat();
+            A[i] = scanner.nextInt();
             Sum += A[i];
         }
-        float Aver = Sum / N;
+        int Aver = Sum / N;
         for (int i = 0; i < N; ++i)
         {
             System.out.printf("%s ",A[i]);
