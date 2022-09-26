@@ -1,4 +1,4 @@
-package ru.mirea.prk2.z9;
+package ru.mirea.prk2.z10;
 import java.util.Scanner;
 
 public class HowMany {
