@@ -5,9 +5,11 @@ public class main {
     {
         Double A = Double.valueOf(5);
         System.out.printf("Double: %s%n",A);
+
         String B = "4";
         A = Double.parseDouble(B);
         System.out.printf("Double: %s%n",A);
+
         int C1 = A.intValue();
         System.out.printf("int: %s%n",C1);
         byte C2 = A.byteValue();
@@ -20,6 +22,7 @@ public class main {
         System.out.printf("float: %s%n",C5);
         double C6 = A.doubleValue();
         System.out.printf("double: %s%n",C6);
+
         System.out.printf("Double: %s%n",A);
     }
 }
