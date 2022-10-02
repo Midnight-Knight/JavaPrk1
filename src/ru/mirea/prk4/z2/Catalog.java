@@ -74,8 +74,18 @@ public class Catalog {
         a+="Раздел: "+this.NameCatalog+"\n";
         for (int i = 0; i < N; ++i)
         {
-            a+="Товар №"+i+" , Название: "+this.list[i].getName()+" , Характеристика: "+this.list[i].getCharacteristic()+": "+this.list[i].getCharacteristicN()+" , Кол-во оставшегося товара: "+this.list[i].getQuantity()+" , Цена: "+this.list[i].getPrice()+"\n";
+            a+="Товар №"+i+" , Название: "+this.list[i].getName()+" , Характеристика: "+this.list[i].getCharacteristic()+": "+this.list[i].getCharacteristicN()+" , Кол-во товара: "+this.list[i].getQuantity()+" , Цена: "+this.list[i].getPrice()+"\n";
         }
         return a;
+    }
+
+    public String getNameCatalog()
+    {
+        return NameCatalog;
+    }
+
+    public Product getProduct(int i)
+    {
+        return list[i];
     }
 }

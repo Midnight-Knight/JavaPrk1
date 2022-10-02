@@ -49,9 +49,9 @@ public class Product {
         this.quantity = quantity;
     }
 
-    public boolean Check(int x)
+    public boolean Check()
     {
-        if (quantity-x >= 0)
+        if (quantity == 0)
         {
             return false;
         }
@@ -64,5 +64,10 @@ public class Product {
     public void Decrease(int x)
     {
         quantity -= x;
+    }
+
+    public String toString()
+    {
+        return "Название: "+this.name+" , Характеристика: "+this.characteristic+": "+this.characteristicN+" , Кол-во товара: "+this.quantity+" , Цена: "+this.price;
     }
 }
