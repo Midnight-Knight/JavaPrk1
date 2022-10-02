@@ -21,4 +21,56 @@ public class Matrix {
             }
         }
     }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public int getWidth() {
+        return width;
+    }
+
+    private double getNumber(int x, int y)
+    {
+        return number[x][y];
+    }
+
+    public void PlusMatrix(Matrix Plus)
+    {
+        if (height == Plus.getHeight() && width == Plus.getWidth())
+        {
+            for (int i = 0; i < height; ++i)
+            {
+                for (int j = 0; j < width; ++j)
+                {
+                    number[i][j] += Plus.getNumber(i,j);
+                }
+            }
+        }
+    }
+
+    public void Multiplication(double x)
+    {
+        for (int i = 0; i < height; ++i)
+        {
+            for (int j = 0; j < width; ++j)
+            {
+                number[i][j] *= x;
+            }
+        }
+    }
+
+    public String toString()
+    {
+        String matrix = "";
+        for (int i = 0; i < height; ++i)
+        {
+            for (int j = 0; j < width; ++j)
+            {
+                matrix += "| "+this.number[i][j]+" ";
+            }
+            matrix += "|\n";
+        }
+        return matrix;
+    }
 }
