@@ -114,6 +114,7 @@ public class Shop {
                                 {
                                     for (int i = user.listsize()-1; i  > -1; --i)
                                     {
+                                        user.getProduct(i).Decrease(1);
                                         user.DelProduct(i);
                                     }
                                 }

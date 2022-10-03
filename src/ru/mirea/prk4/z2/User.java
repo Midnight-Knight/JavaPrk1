@@ -67,6 +67,11 @@ public class User {
         }
     }
 
+    public Product getProduct(int i)
+    {
+        return list.get(i);
+    }
+
     public void DelProduct(int i)
     {
         if (list.size() != 0) {
