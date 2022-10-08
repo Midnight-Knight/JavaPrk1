@@ -1,10 +1,9 @@
-package ru.mirea.prk5.z10;
+package ru.mirea.prk4.raz1.z10;
 
-public class Plane extends Transport{
-
+public class Auto extends Transport {
     private double distance;
 
-    Plane(double speed, double maxHeft, double costHeft, double maxPass, double costPass, double distance)
+    Auto(double speed, double maxHeft, double costHeft, double maxPass, double costPass, double distance)
     {
         setSpeed(speed);
         setHeft(maxHeft);
@@ -28,4 +27,5 @@ public class Plane extends Transport{
     {
         return ((time()) * (getPassenger()*getPassengerCost()));
     }
+
 }

@@ -1,4 +1,4 @@
-package ru.mirea.prk4.z2;
+package ru.mirea.prk4.raz0.z2;
 
 public class Product {
     private String name;

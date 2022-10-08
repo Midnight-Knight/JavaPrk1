@@ -1,4 +1,4 @@
-package ru.mirea.prk5.z10;
+package ru.mirea.prk4.raz1.z10;
 
 public abstract class Transport {
     private double speed;

@@ -1,4 +1,4 @@
-package ru.mirea.prk4.z1;
+package ru.mirea.prk4.raz0.z1;
 import java.util.Scanner;
 
 public class main {

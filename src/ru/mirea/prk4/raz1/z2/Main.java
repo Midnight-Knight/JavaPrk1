@@ -1,4 +1,4 @@
-package ru.mirea.prk5.z2;
+package ru.mirea.prk4.raz1.z2;
 
 public class Main {
     public static void main(String[] args)

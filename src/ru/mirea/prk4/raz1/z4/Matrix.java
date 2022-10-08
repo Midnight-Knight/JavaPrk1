@@ -1,4 +1,4 @@
-package ru.mirea.prk5.z4;
+package ru.mirea.prk4.raz1.z4;
 import java.util.Scanner;
 
 public class Matrix {

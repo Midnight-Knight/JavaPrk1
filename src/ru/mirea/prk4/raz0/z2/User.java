@@ -1,4 +1,6 @@
-package ru.mirea.prk4.z2;
+package ru.mirea.prk4.raz0.z2;
+import ru.mirea.prk4.raz0.z2.Product;
+
 import java.util.ArrayList;
 
 public class User {

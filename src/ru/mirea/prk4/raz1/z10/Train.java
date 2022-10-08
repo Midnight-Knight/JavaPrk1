@@ -1,10 +1,10 @@
-package ru.mirea.prk5.z10;
+package ru.mirea.prk4.raz1.z10;
 
-public class Ship extends Transport {
+public class Train extends Transport {
 
     private double distance;
 
-    Ship(double speed, double maxHeft, double costHeft, double maxPass, double costPass, double distance)
+    Train(double speed, double maxHeft, double costHeft, double maxPass, double costPass, double distance)
     {
         setSpeed(speed);
         setHeft(maxHeft);
