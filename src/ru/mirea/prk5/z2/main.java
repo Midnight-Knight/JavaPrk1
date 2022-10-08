@@ -51,10 +51,6 @@ public class main extends JFrame{
 
     }
 
-    private static void createAndShowGUI() {
-        main a = new main();
-    }
-
     public main()
     {
         super("Shape");
@@ -65,12 +61,7 @@ public class main extends JFrame{
 
     public static void main(String[] args)
     {
-
-        javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                createAndShowGUI();
-            }
-        });
+        new main();
     }
 
 }
