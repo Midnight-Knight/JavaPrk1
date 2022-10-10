@@ -3,7 +3,7 @@ package ru.mirea.prk8.z6;
 public class Main {
     public static void main(String[] args)
     {
-        System.out.println(prost(19));
+        System.out.println(prost(20));
     }
 
     public static String prost(int x)

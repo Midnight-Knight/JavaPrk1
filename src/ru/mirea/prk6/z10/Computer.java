@@ -12,7 +12,7 @@ public class Computer {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите название PC: ");
-        cpu.setName(scanner.nextLine());
+        name = scanner.nextLine();
 
         cpu = new CPU();
         System.out.print("Введите название CPU: ");

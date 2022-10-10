@@ -4,11 +4,12 @@ public class MathFunc implements MathCalculable{
 
     @Override
     public double pov(double x, double y) {
+        double z = x;
         for (int i = 1; i < y; ++i)
         {
-            x*=x;
+            z = z * x;
         }
-        return x;
+        return z;
     }
 
     @Override
