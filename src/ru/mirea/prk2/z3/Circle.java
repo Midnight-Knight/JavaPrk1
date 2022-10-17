@@ -1,4 +1,4 @@
-package ru.mirea.prk2.z3;
+/*package ru.mirea.prk2.z3;
 
 public class Circle {
     private Point Center;
@@ -23,3 +23,5 @@ public class Circle {
         return Center.toString();
     }
 }
+
+ */

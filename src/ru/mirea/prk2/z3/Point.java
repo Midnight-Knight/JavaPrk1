@@ -1,4 +1,4 @@
-package ru.mirea.prk2.z3;
+/*package ru.mirea.prk2.z3;
 
 public class Point {
     private double x = 0.0;
@@ -40,3 +40,5 @@ public class Point {
         return "x: "+this.x+"\ny: "+this.y;
     }
 }
+*/
+

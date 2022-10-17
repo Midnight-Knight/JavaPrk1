@@ -1,4 +1,4 @@
-package ru.mirea.prk2.z3;
+/*package ru.mirea.prk2.z3;
 import java.util.Scanner;
 
 public class Tester {
@@ -36,3 +36,4 @@ public class Tester {
         }
     }
 }
+ */
