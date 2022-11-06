@@ -1,4 +1,4 @@
-package ru.mirea.prk21.z2;
+package ru.mirea.prk21.z2z3z4;
 
 public class Data<T> {
     private T[] type;
