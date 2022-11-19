@@ -8,6 +8,7 @@ public class Data<T> {
         this.type = type;
     }
 
+
     public int len()
     {
         return type.length;
