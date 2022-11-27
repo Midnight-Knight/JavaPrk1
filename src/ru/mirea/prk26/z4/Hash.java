@@ -6,6 +6,7 @@ public class Hash {
 
     public Hash(int n)
     {
+        System.out.println("Хэш-таблица с цепочками");
         this.n=n;
         elements = new Element[n];
         for (int i = 0; i < n; ++i)
