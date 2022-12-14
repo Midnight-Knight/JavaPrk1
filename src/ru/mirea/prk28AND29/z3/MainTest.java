@@ -8,12 +8,12 @@ public class MainTest {
     public static void main(String[] args)
     {
         Item[] item = new Item[6];
-        item[0] = new Drink(100, "Кола", "");
-        item[1] = new Drink(200, "Сок", "");
-        item[2] = new Drink(300, "Пиво", "");
-        item[3] = new Dish(400, "Салат", "");
-        item[4] = new Dish(500, "Макароны", "");
-        item[5] = new Dish(600, "Мясо", "");
+        item[0] = new Drink(100, "Кола", "ааа");
+        item[1] = new Drink(200, "Сок", "ааа");
+        item[2] = new Drink(300, "Пиво", "ааа");
+        item[3] = new Dish(400, "Салат", "ааа");
+        item[4] = new Dish(500, "Макароны", "ааа");
+        item[5] = new Dish(600, "Мясо", "ааа");
         List list = new List();
         list.Add(item[0]);
         list.Add(item[1]);
