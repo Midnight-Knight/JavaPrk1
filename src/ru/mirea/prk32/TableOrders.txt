@@ -1,0 +1,10 @@
+2
+8
+NoNull 19 2 Dish 'Борщ' 200 'Борщ с говядиной'  Drink JUICE 'Добрый' 150 0,0 'Апельсин' 
+NoNull 20 2 Dish 'Стейк' 3000 'С кровью'  Drink WINE 'Вино' 5000 35,0 'Красное' 
+null
+null
+null
+null
+null
+null
